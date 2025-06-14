@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio_CV</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/812b37fde1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="home" id="homePage">
+        <div class="homeNavbar">
+            <h2>Natan</h2>
+            <ul>
+                <li><a href="#homePage"><span>#</span>home</a></li>
+                <li><a href="#workPage"><span>#</span>work</a></li>
+                <li><a href="#aboutPage"><span>#</span>about</a></li>
+                <li><a href="#contactPage"><span>#</span>contact</a></li>
+                <li>icon</li> <!-- Futuro Dark-Mode -->
+            </ul>
+        </div>
+        <div class="homeContent">
+            <h1>Hi! I'm Natan, welcome to <span>My Portfolio</span></h1>
+            <p>Explore my work and learn more about me...</p>
+            <a href="#workPage" id="homeScrollButton"><img src="/assets/vectorScrollButton.svg" alt=""></a>
+        </div>
+    </div>
+    <div class="work" id="workPage">
+        <div class="workText">
+            <h1><span>#</span>projects</h1>
+            <hr>
+            <a href="https://github.com/neitandrade" target="_blank">View all</a>
+        </div>
+        <div class="workContent">
+            <div class="workProject1">
+                <a href="https://neitandrade.github.io/dashboard-light-dark/" target="_blank"><img src="/assets/project1.jpeg" alt="Dashboard"></a>
+                <p>HTML CSS JS</p>
+                <h2>Dashboard</h2>
+                <p>Dashboard com dark/light mode</p>
+            </div>
+            <div class="workProject2">
+                <a href="https://neitandrade.github.io/portfolio-cv/" target="_blank"><img src="/assets/project2.png" alt="Portfolio"></a>
+                <p>HTML CSS JS</p>
+                <h2>Portfolio</h2>
+                <p>Portfólio com animações e responsividade</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="about" id="aboutPage">
+        <div class="aboutText">
+            <h1><span>#</span>about-me</h1>
+            <hr>
+        </div>
+        <div class="aboutContent">
+            <div class="containerLeft">
+                <p>Olá, me chamo Natan!</p>
+                <br>
+                <p>Se deseja saber mais sobre mim, te convido a visitar meu 
+                    <a href="https://www.linkedin.com/in/natan-s-andrade/">Linkedin</a>, 
+                    mas te aviso de antemão que desenvolver interfaces e transforma-las em projetos reais têm sido uma terapia para mim. 
+                    Quanto à minha formação, sou estudante de Farmácia na Universidade Federal da Paraíba (UFPB), e também estudante de Sistemas
+                    pelo Centro Universitário Internacional (UNINTER), onde sou bolsista em ambas as grades. Ademais, sou estagiário na INOVATEC-JP, como você pode perceber, minha rotina é bem extensa, haha!
+                    Antes que me pergunte, sim, eu gosto de estudar e aprender coisas novas, e vejo que a tecnologia está intrinseca em diversos âmbitos da nossa sociedade.
+                    Como profissional, tenho consciência que a tecnologia é uma ferramenta poderosa e que pode me destacar no mercado de trabalho. Oportunidades sempre são bem-vindas!
+                </p>
+                <div class="iconsLeft">
+                    <a href="https://www.linkedin.com/in/natan-s-andrade/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/neitandrade/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://lattes.cnpq.br/6889364789603946" target="_blank"><i class="fa-solid fa-user-tie"></i></a>
+                </div>
+            </div>
+            <div class="containerRight">
+                <div class="languages">
+                    <h2>Languages</h2>
+                    <p>Javascript, Python</p>
+                </div>
+                <div class="frameworks">
+                    <h2>Frameworks</h2>
+                    <p>React, ReactNative</p>
+                </div>
+                <div class="tools">
+                    <h2>Tools</h2>
+                    <p>Docking Molecular, Git, Figma, Expo, HTML & CSS</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contactPage">
+        <div class="contactText">
+            <h1><span>/</span>contact-me</h1>
+            <hr>
+        </div>
+        <div class="contactContent">
+            <p>If you have any questions or want to work together, feel free to reach out!</p>
+        </div>
+        <div class="contactForm">
+            <form action="https://formsubmit.co/neitandrade@gmail.com" method="post" target="_blank">
+                <div class="formGroup">
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+                <div class="formGroup">
+                    <input type="email" id="email" name="email" required placeholder="Your Email">
+                </div>
+                <div class="formGroup">
+                    <textarea id="message" name="message" rows="4" required placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <div class="contactFooter">
+            <p>© 2025 Copyright. Made by Natan</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
